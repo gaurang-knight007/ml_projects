@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Models and outputs
+models/*.pkl
+*.joblib
+
+# Data (if large or sensitive datasets are used)
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Logs
+*.log
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+*.env
+
+# Pip freeze output
+requirements.txt.lock
+Pipfile.lock
